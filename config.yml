@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master
+locale: 'ja'
+media_folder: "media"
+
+collections:
+  - name: "docs"
+    label: "CryptoDocs"
+    folder: "docs/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Slug", name: "slug", widget: "string" }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
