@@ -7,7 +7,7 @@ media_folder: "media"
 collections:
   - name: "docs"
     label: "CryptoDocs"
-    folder: "docs/blog"
+    folder: "docs"
     create: true
     slug: "{{slug}}"
     fields:
